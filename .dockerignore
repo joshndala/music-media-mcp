@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.git/
+.gitignore
+*.md
+test_*.py
+artifact_preview.html
+cors.json

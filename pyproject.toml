@@ -1,0 +1,13 @@
+[project]
+name = "music-media-mcp"
+version = "1.0.0"
+description = "MCP server for AI-powered media generation using Vertex AI Lyria 3, FFmpeg, and Google Cloud Storage"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "httpx>=0.27.0",
+    "google-auth>=2.28.0",
+    "google-cloud-storage>=2.14.0",
+    "ffmpeg-python>=0.2.0",
+    "python-dotenv>=1.0.0",
+]
