@@ -48,7 +48,7 @@ GCP_LOCATION = os.environ.get("GCP_LOCATION", "us-central1")
 GCS_BUCKET_NAME = os.environ.get("GCS_BUCKET_NAME", "")
 
 LYRIA_MODEL = "lyria-002"
-GEMINI_MODEL = "gemini-2.0-flash-001"
+GEMINI_MODEL = "gemini-2.5-flash"
 AUDIO_DURATION_SEC = 30  # Lyria generates ~30s clips
 
 VERTEX_AI_ENDPOINT = (
